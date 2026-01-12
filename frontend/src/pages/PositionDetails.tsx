@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState, useCallback } from 'react';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { Container, Row, Col, Button, Spinner, Alert } from 'react-bootstrap';
 import {
   getPositionInterviewFlow,
@@ -8,17 +8,54 @@ import {
   Candidate,
 } from '../services/positionService';
 import KanbanBoard from '../components/KanbanBoard';
+import FilterBar from '../components/FilterBar';
 import './PositionDetails.css';
 
 const PositionDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
 
   const [positionName, setPositionName] = useState<string>('');
   const [stages, setStages] = useState<InterviewStep[]>([]);
   const [candidates, setCandidates] = useState<Candidate[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+  
+  // Filter state
+  const [minScore, setMinScore] = useState<number | undefined>();
+  const [maxScore, setMaxScore] = useState<number | undefined>();
+
+  // Parse URL query parameters for filters
+  const parseFilterParams = useCallback(() => {
+    const params = new URLSearchParams(location.search);
+    const min = params.get('minScore');
+    const max = params.get('maxScore');
+    
+    setMinScore(min ? parseFloat(min) : undefined);
+    setMaxScore(max ? parseFloat(max) : undefined);
+  }, [location.search]);
+
+  // Update URL with filter parameters
+  const updateFilterURL = useCallback((min?: number, max?: number) => {
+    const params = new URLSearchParams();
+    if (min !== undefined) params.set('minScore', min.toString());
+    if (max !== undefined) params.set('maxScore', max.toString());
+    
+    const newSearch = params.toString() ? `?${params.toString()}` : '';
+    window.history.replaceState(null, '', `${location.pathname}${newSearch}`);
+  }, [location.pathname]);
+
+  // Handle filter changes
+  const handleFilterChange = useCallback((min?: number, max?: number) => {
+    setMinScore(min);
+    setMaxScore(max);
+    updateFilterURL(min, max);
+  }, [updateFilterURL]);
+
+  useEffect(() => {
+    parseFilterParams();
+  }, [location.search, parseFilterParams]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -137,13 +174,26 @@ const PositionDetails: React.FC = () => {
       {/* Kanban Board */}
       <Row className="kanban-section">
         <Col>
+          {/* Filter Bar */}
+          <FilterBar
+            minScore={minScore}
+            maxScore={maxScore}
+            onFilterChange={handleFilterChange}
+            isActive={minScore !== undefined || maxScore !== undefined}
+          />
+
           {candidates.length === 0 ? (
             <Alert variant="info" className="no-candidates-alert">
               <Alert.Heading>No candidates yet</Alert.Heading>
               <p>There are no candidates for this position.</p>
             </Alert>
           ) : (
-            <KanbanBoard stages={stages} candidates={candidates} />
+            <KanbanBoard
+              stages={stages}
+              candidates={candidates}
+              minScore={minScore}
+              maxScore={maxScore}
+            />
           )}
         </Col>
       </Row>
