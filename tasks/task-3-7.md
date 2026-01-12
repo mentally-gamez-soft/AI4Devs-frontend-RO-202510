@@ -20,12 +20,12 @@ Implement the clear filters button functionality:
 - Provides visual feedback
 
 ## Definition of Done
-- [ ] Clear filters button is visible in FilterBar
-- [ ] Clicking button clears minScore and maxScore
-- [ ] URL query parameters are removed
-- [ ] All candidates are displayed again
-- [ ] Button is only visible when filters are active
-- [ ] Button click feedback is provided
+- [x] Clear filters button is visible in FilterBar
+- [x] Clicking button clears minScore and maxScore
+- [x] URL query parameters are removed
+- [x] All candidates are displayed again
+- [x] Button is only visible when filters are active
+- [x] Button click feedback is provided
 
 ## Implementation Notes
 - Disable button when no filters are active

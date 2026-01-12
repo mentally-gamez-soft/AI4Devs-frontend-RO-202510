@@ -20,13 +20,13 @@ Implement URL-based state management for filters:
 - Restore filter state when page is reloaded
 
 ## Definition of Done
-- [ ] URL includes query parameters: ?minScore=X&maxScore=Y
-- [ ] Filter state is read from URL on page load
-- [ ] URL is updated when filters are changed
-- [ ] Bookmarked URL restores the same filter state
-- [ ] Shared URL with others shows the same filters
-- [ ] Clear filters button updates URL
-- [ ] URL parameters are properly encoded
+- [x] URL includes query parameters: ?minScore=X&maxScore=Y
+- [x] Filter state is read from URL on page load
+- [x] URL is updated when filters are changed
+- [x] Bookmarked URL restores the same filter state
+- [x] Shared URL with others shows the same filters
+- [x] Clear filters button updates URL
+- [x] URL parameters are properly encoded
 
 ## Implementation Notes
 - Use useSearchParams hook from react-router-dom

@@ -21,14 +21,14 @@ Enhance CandidateCard to display score with visual indicators:
 - Score scale: 0-2 (red), 2-4 (yellow), 4-5 (green)
 
 ## Definition of Done
-- [ ] Score is displayed with color coding
-- [ ] Color scheme is accessible (WCAG AA)
-- [ ] Low scores (0-2) display in red
-- [ ] Medium scores (2-4) display in yellow/orange
-- [ ] High scores (4-5) display in green
-- [ ] Score is visually distinct from other text
-- [ ] Colors are consistent across browser
-- [ ] Color coding helps quickly identify candidate quality
+- [x] Score is displayed with color coding
+- [x] Color scheme is accessible (WCAG AA)
+- [x] Low scores (0-2) display in red
+- [x] Medium scores (2-4) display in yellow/orange
+- [x] High scores (4-5) display in green
+- [x] Score is visually distinct from other text
+- [x] Colors are consistent across browser
+- [x] Color coding helps quickly identify candidate quality
 
 ## Implementation Notes
 - Use CSS classes or inline styles for colors

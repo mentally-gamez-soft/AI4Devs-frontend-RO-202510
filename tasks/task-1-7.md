@@ -21,15 +21,15 @@ Implement comprehensive loading and error handling:
 - Show skeleton screens or placeholders for better UX
 
 ## Definition of Done
-- [ ] Loading spinner is displayed while data is being fetched
-- [ ] Error message is displayed if position data fails to load
-- [ ] Error message is displayed if candidate data fails to load
-- [ ] Error messages include helpful information
-- [ ] Retry button is available when an error occurs
-- [ ] Skeleton screens or placeholders are shown for better perceived performance
-- [ ] No API calls are made on error (unless retry is clicked)
-- [ ] Timeout scenarios are handled gracefully
-- [ ] User can still navigate away during loading/error states
+- [x] Loading spinner is displayed while data is being fetched
+- [x] Error message is displayed if position data fails to load
+- [x] Error message is displayed if candidate data fails to load
+- [x] Error messages include helpful information
+- [x] Retry button is available when an error occurs
+- [x] Skeleton screens or placeholders are shown for better perceived performance
+- [x] No API calls are made on error (unless retry is clicked)
+- [x] Timeout scenarios are handled gracefully
+- [x] User can still navigate away during loading/error states
 
 ## Implementation Notes
 - Use React state (useState) to manage loading and error states

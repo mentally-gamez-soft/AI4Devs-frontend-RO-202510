@@ -21,14 +21,14 @@ Implement client-side filtering logic:
 - Apply filters immediately without API calls
 
 ## Definition of Done
-- [ ] Filtering logic filters candidates by score range
-- [ ] Only candidates matching criteria are displayed
-- [ ] Column headers show both total and filtered counts
-- [ ] Filtering is done client-side (no API calls)
-- [ ] Original candidate list is preserved
-- [ ] Empty columns show when no candidates match filter
-- [ ] Filtering updates in real-time
-- [ ] Performance is acceptable with many candidates
+- [x] Filtering logic filters candidates by score range
+- [x] Only candidates matching criteria are displayed
+- [x] Column headers show both total and filtered counts
+- [x] Filtering is done client-side (no API calls)
+- [x] Original candidate list is preserved
+- [x] Empty columns show when no candidates match filter
+- [x] Filtering updates in real-time
+- [x] Performance is acceptable with many candidates
 
 ## Implementation Notes
 - Create filtered candidates array based on score range

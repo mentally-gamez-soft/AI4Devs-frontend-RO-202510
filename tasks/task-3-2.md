@@ -21,15 +21,15 @@ Create a FilterBar component that allows users to filter candidates by score ran
 - Initial state reflects URL query parameters
 
 ## Definition of Done
-- [ ] FilterBar component created
-- [ ] Component accepts minScore and maxScore props
-- [ ] Component has input fields for score range
-- [ ] Component has "Clear filters" button
-- [ ] onChange callback is called when filters change
-- [ ] Visual indicator shows when filters are active
-- [ ] Component reads initial values from URL query parameters
-- [ ] Input validation (min <= max)
-- [ ] Responsive design for mobile devices
+- [x] FilterBar component created
+- [x] Component accepts minScore and maxScore props
+- [x] Component has input fields for score range
+- [x] Component has "Clear filters" button
+- [x] onChange callback is called when filters change
+- [x] Visual indicator shows when filters are active
+- [x] Component reads initial values from URL query parameters
+- [x] Input validation (min <= max)
+- [x] Responsive design for mobile devices
 
 ## Implementation Notes
 - Use React Bootstrap for input fields

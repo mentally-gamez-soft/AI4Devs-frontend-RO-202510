@@ -21,16 +21,16 @@ Create integration tests that verify the complete drag-drop-update flow:
 - Test across different browsers if using Playwright
 
 ## Definition of Done
-- [ ] Test drag candidate from Applied to Interviewing
-- [ ] Test drag candidate from Interviewing to Offered
-- [ ] Test drag candidate from Offered to Hired
-- [ ] Test drag candidate back to previous stage
-- [ ] Test API is called with correct payload
-- [ ] Test candidate appears in new stage
-- [ ] Test error scenario (API fails, candidate returns to original stage)
-- [ ] Test multiple candidates in same stage
-- [ ] Test all stage transitions
-- [ ] All tests pass
+- [x] Test drag candidate from Applied to Interviewing
+- [x] Test drag candidate from Interviewing to Offered
+- [x] Test drag candidate from Offered to Hired
+- [x] Test drag candidate back to previous stage
+- [x] Test API is called with correct payload
+- [x] Test candidate appears in new stage
+- [x] Test error scenario (API fails, candidate returns to original stage)
+- [x] Test multiple candidates in same stage
+- [x] Test all stage transitions
+- [x] All tests pass
 
 ## Implementation Notes
 - Use Playwright or Cypress for E2E testing

@@ -21,14 +21,14 @@ Implement accessibility features to allow keyboard navigation and screen reader 
 - Keyboard navigation through candidates and stages
 
 ## Definition of Done
-- [ ] Tab key navigates through candidate cards
-- [ ] Enter/Space keys can initiate drag operations
-- [ ] Arrow keys move cards between columns (alternative to mouse drag)
-- [ ] Escape key cancels drag operations
-- [ ] ARIA labels describe drag operations
-- [ ] Screen readers announce when drag starts/ends
-- [ ] Focus indicators are visible throughout
-- [ ] Component is tested with screen reader (NVDA/JAWS/VoiceOver)
+- [x] Tab key navigates through candidate cards
+- [x] Enter/Space keys can initiate drag operations
+- [x] Arrow keys move cards between columns (alternative to mouse drag)
+- [x] Escape key cancels drag operations
+- [x] ARIA labels describe drag operations
+- [x] Screen readers announce when drag starts/ends
+- [x] Focus indicators are visible throughout
+- [x] Component is tested with screen reader (NVDA/JAWS/VoiceOver)
 
 ## Implementation Notes
 - Use aria-label and aria-describedby for descriptions

@@ -24,15 +24,15 @@ Create a KanbanBoard React component that:
 The component should be reusable and well-structured for future enhancements.
 
 ## Definition of Done
-- [ ] KanbanBoard component created in src/components/
-- [ ] Component accepts props: stages, candidates, onDragEnd callback
-- [ ] Each stage is rendered as a column with header
-- [ ] Column header displays stage name and candidate count
-- [ ] Columns display CandidateCard components for relevant candidates
-- [ ] Empty state is shown for columns with no candidates
-- [ ] Component is responsive and displays well on different screen sizes
-- [ ] CSS/Styling is clean and organized
-- [ ] Component can be easily tested
+- [x] KanbanBoard component created in src/components/
+- [x] Component accepts props: stages, candidates, onDragEnd callback
+- [x] Each stage is rendered as a column with header
+- [x] Column header displays stage name and candidate count
+- [x] Columns display CandidateCard components for relevant candidates
+- [x] Empty state is shown for columns with no candidates
+- [x] Component is responsive and displays well on different screen sizes
+- [x] CSS/Styling is clean and organized
+- [x] Component can be easily tested
 
 ## Implementation Notes
 - Create TypeScript interfaces for stages and candidates

@@ -22,17 +22,17 @@ Create comprehensive unit tests for drag and drop functionality:
 - Test candidate position updates
 
 ## Definition of Done
-- [ ] Unit tests for drag start scenarios
-- [ ] Unit tests for drag end with valid drop
-- [ ] Unit tests for drag end with invalid drop
-- [ ] Unit tests for optimistic update
-- [ ] Unit tests for error handling
-- [ ] Unit tests for rollback functionality
-- [ ] Unit tests for loading state during API call
-- [ ] Tests verify candidate state changes correctly
-- [ ] Tests mock API responses
-- [ ] Code coverage is at least 80%
-- [ ] All tests pass
+- [x] Unit tests for drag start scenarios
+- [x] Unit tests for drag end with valid drop
+- [x] Unit tests for drag end with invalid drop
+- [x] Unit tests for optimistic update
+- [x] Unit tests for error handling
+- [x] Unit tests for rollback functionality
+- [x] Unit tests for loading state during API call
+- [x] Tests verify candidate state changes correctly
+- [x] Tests mock API responses
+- [x] Code coverage is at least 80%
+- [x] All tests pass
 
 ## Implementation Notes
 - Mock react-beautiful-dnd using jest.mock

@@ -20,13 +20,13 @@ Enhance column headers to show candidate statistics:
 - Format: "Stage Name (5/10)" where 5 is filtered count, 10 is total
 
 ## Definition of Done
-- [ ] Column header shows stage name
-- [ ] Column header shows total candidate count
-- [ ] Column header shows filtered count (if filters applied)
-- [ ] Format is clear and readable
-- [ ] Counts update when filters change
-- [ ] Works correctly when no filters applied
-- [ ] Shows "(0/5)" when no candidates match filter
+- [x] Column header shows stage name
+- [x] Column header shows total candidate count
+- [x] Column header shows filtered count (if filters applied)
+- [x] Format is clear and readable
+- [x] Counts update when filters change
+- [x] Works correctly when no filters applied
+- [x] Shows "(0/5)" when no candidates match filter
 
 ## Implementation Notes
 - Modify KanbanColumn or column header rendering

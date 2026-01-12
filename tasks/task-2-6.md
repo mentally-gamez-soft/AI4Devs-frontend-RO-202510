@@ -20,14 +20,14 @@ Implement visual feedback to improve user experience during drag operations:
 - Show visual indicators for valid/invalid drop targets
 
 ## Definition of Done
-- [ ] Cursor changes to grabbing hand when hovering draggable card
-- [ ] Card opacity decreases when being dragged
-- [ ] Drop zones highlight when dragging over them
-- [ ] Drop zone highlight shows valid drop target
-- [ ] Visual feedback is immediate and smooth
-- [ ] Animations are performant (no jank)
-- [ ] CSS transitions are used where appropriate
-- [ ] Feedback is consistent across browsers
+- [x] Cursor changes to grabbing hand when hovering draggable card
+- [x] Card opacity decreases when being dragged
+- [x] Drop zones highlight when dragging over them
+- [x] Drop zone highlight shows valid drop target
+- [x] Visual feedback is immediate and smooth
+- [x] Animations are performant (no jank)
+- [x] CSS transitions are used where appropriate
+- [x] Feedback is consistent across browsers
 
 ## Implementation Notes
 - Use CSS cursor property for cursor changes

@@ -22,18 +22,18 @@ Create comprehensive unit tests for all view components (PositionDetails, Kanban
 - Achieve minimum 80% code coverage
 
 ## Definition of Done
-- [ ] Unit tests created for PositionDetails component
-- [ ] Unit tests created for KanbanBoard component
-- [ ] Unit tests created for CandidateCard component
-- [ ] Tests verify component renders correctly
-- [ ] Tests verify props are handled correctly
-- [ ] Tests verify loading states are displayed
-- [ ] Tests verify error states are displayed
-- [ ] Tests verify empty states are displayed
-- [ ] Tests verify click handlers work
-- [ ] Code coverage is at least 80%
-- [ ] All tests pass
-- [ ] Tests are maintainable and well-documented
+- [x] Unit tests created for PositionDetails component
+- [x] Unit tests created for KanbanBoard component
+- [x] Unit tests created for CandidateCard component
+- [x] Tests verify component renders correctly
+- [x] Tests verify props are handled correctly
+- [x] Tests verify loading states are displayed
+- [x] Tests verify error states are displayed
+- [x] Tests verify empty states are displayed
+- [x] Tests verify click handlers work
+- [x] Code coverage is at least 80%
+- [x] All tests pass
+- [x] Tests are maintainable and well-documented
 
 ## Implementation Notes
 - Use Jest (already configured in the project)

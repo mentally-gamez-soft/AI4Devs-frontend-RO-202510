@@ -20,14 +20,14 @@ Ensure FilterBar is responsive and works well on all screen sizes:
 - Touch-friendly on mobile
 
 ## Definition of Done
-- [ ] FilterBar works on mobile (320px+)
-- [ ] Inputs are touch-friendly (minimum 44px height)
-- [ ] Inputs stack vertically on mobile
-- [ ] Inputs are in a row on desktop
-- [ ] Labels are clear and visible
-- [ ] Clear filters button is accessible
-- [ ] No horizontal scroll on mobile
-- [ ] Spacing is appropriate on all sizes
+- [x] FilterBar works on mobile (320px+)
+- [x] Inputs are touch-friendly (minimum 44px height)
+- [x] Inputs stack vertically on mobile
+- [x] Inputs are in a row on desktop
+- [x] Labels are clear and visible
+- [x] Clear filters button is accessible
+- [x] No horizontal scroll on mobile
+- [x] Spacing is appropriate on all sizes
 
 ## Implementation Notes
 - Use Bootstrap responsive utilities

@@ -21,15 +21,15 @@ Create unit tests for filtering functionality:
 - Test clear filters functionality
 
 ## Definition of Done
-- [ ] Test candidates filtered by score >= 3
-- [ ] Test candidates filtered by score <= 4
-- [ ] Test candidates filtered by score >= 3 and <= 4
-- [ ] Test with edge values (0, 5, 0-0, 5-5)
-- [ ] Test clear filters resets all values
-- [ ] Test column statistics update correctly
-- [ ] Test with empty result set
-- [ ] All tests pass
-- [ ] Code coverage >= 80%
+- [x] Test candidates filtered by score >= 3
+- [x] Test candidates filtered by score <= 4
+- [x] Test candidates filtered by score >= 3 and <= 4
+- [x] Test with edge values (0, 5, 0-0, 5-5)
+- [x] Test clear filters resets all values
+- [x] Test column statistics update correctly
+- [x] Test with empty result set
+- [x] All tests pass
+- [x] Code coverage >= 80%
 
 ## Implementation Notes
 - Mock candidate data with various scores

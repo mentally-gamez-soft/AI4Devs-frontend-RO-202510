@@ -23,16 +23,16 @@ Create the main PositionDetails page component that:
 This is the parent component that orchestrates the entire feature.
 
 ## Definition of Done
-- [ ] PositionDetails component created in src/pages/ or src/components/
-- [ ] Component uses useParams hook to get position ID from URL
-- [ ] Component uses useNavigate hook for back button
-- [ ] Position title is displayed at the top of the page
-- [ ] Back button is functional and styled appropriately
-- [ ] Loading state is displayed while fetching data
-- [ ] Error state is displayed if data fetch fails
-- [ ] KanbanBoard component is rendered with fetched data
-- [ ] Component properly handles component lifecycle
-- [ ] TypeScript types are properly defined
+- [x] PositionDetails component created in src/pages/ or src/components/
+- [x] Component uses useParams hook to get position ID from URL
+- [x] Component uses useNavigate hook for back button
+- [x] Position title is displayed at the top of the page
+- [x] Back button is functional and styled appropriately
+- [x] Loading state is displayed while fetching data
+- [x] Error state is displayed if data fetch fails
+- [x] KanbanBoard component is rendered with fetched data
+- [x] Component properly handles component lifecycle
+- [x] TypeScript types are properly defined
 
 ## Implementation Notes
 - Use useEffect hook to fetch data when component mounts

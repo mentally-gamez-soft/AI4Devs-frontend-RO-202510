@@ -22,13 +22,13 @@ Implement optimistic updates so the UI responds immediately to user actions:
 This improves perceived performance and user experience.
 
 ## Definition of Done
-- [ ] Candidate state is updated immediately in onDragEnd handler
-- [ ] UI reflects the change before API call completes
-- [ ] Candidate card appears in new column immediately
-- [ ] Column counts are updated immediately
-- [ ] No visible delay between drag and state update
-- [ ] State management approach is clear and maintainable
-- [ ] Can be easily rolled back if needed
+- [x] Candidate state is updated immediately in onDragEnd handler
+- [x] UI reflects the change before API call completes
+- [x] Candidate card appears in new column immediately
+- [x] Column counts are updated immediately
+- [x] No visible delay between drag and state update
+- [x] State management approach is clear and maintainable
+- [x] Can be easily rolled back if needed
 
 ## Implementation Notes
 - Use React state (useState) to manage candidates

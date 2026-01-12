@@ -22,14 +22,14 @@ Create a reusable CandidateCard React component that displays:
 The component should be simple, focused, and easily testable.
 
 ## Definition of Done
-- [ ] CandidateCard component created in src/components/
-- [ ] Component accepts props: candidate (with id, fullName, averageScore), onClick callback
-- [ ] Card displays candidate name and score clearly
-- [ ] Score is formatted to one decimal place or "N/A" if not available
-- [ ] Component has appropriate styling and hover effects
-- [ ] Component is prepared for drag functionality (will be added in Task 2-2)
-- [ ] Component is responsive
-- [ ] Component includes PropTypes or TypeScript types for validation
+- [x] CandidateCard component created in src/components/
+- [x] Component accepts props: candidate (with id, fullName, averageScore), onClick callback
+- [x] Card displays candidate name and score clearly
+- [x] Score is formatted to one decimal place or "N/A" if not available
+- [x] Component has appropriate styling and hover effects
+- [x] Component is prepared for drag functionality (will be added in Task 2-2)
+- [x] Component is responsive
+- [x] Component includes PropTypes or TypeScript types for validation
 
 ## Implementation Notes
 - Use React Bootstrap Card component or custom CSS

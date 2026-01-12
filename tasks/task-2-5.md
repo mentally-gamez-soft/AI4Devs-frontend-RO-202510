@@ -22,15 +22,15 @@ Implement robust error handling and rollback functionality:
 This ensures data consistency between frontend and backend.
 
 ## Definition of Done
-- [ ] API errors are caught and handled
-- [ ] On error, candidate card returns to original position
-- [ ] Error message is displayed to user
-- [ ] Original candidate list state is available for rollback
-- [ ] Rollback is immediate (doesn't wait)
-- [ ] User can see what went wrong (error details)
-- [ ] Multiple error scenarios are handled (network, server, validation)
-- [ ] No data loss during failed operations
-- [ ] Retry mechanism is clear (user drags again)
+- [x] API errors are caught and handled
+- [x] On error, candidate card returns to original position
+- [x] Error message is displayed to user
+- [x] Original candidate list state is available for rollback
+- [x] Rollback is immediate (doesn't wait)
+- [x] User can see what went wrong (error details)
+- [x] Multiple error scenarios are handled (network, server, validation)
+- [x] No data loss during failed operations
+- [x] Retry mechanism is clear (user drags again)
 
 ## Implementation Notes
 - Store previous candidates state before API call

@@ -22,13 +22,13 @@ Add visual feedback to show that an API call is in progress:
 This prevents users from dragging multiple candidates simultaneously.
 
 ## Definition of Done
-- [ ] Loading indicator appears when API call starts
-- [ ] Draggable is disabled while request is in progress
-- [ ] Multiple drag-drop operations are prevented
-- [ ] Loading indicator disappears when request completes
-- [ ] Loading indicator appears even if optimistic update shows card moved
-- [ ] No visual glitches during loading
-- [ ] Timeout is handled if request takes too long
+- [x] Loading indicator appears when API call starts
+- [x] Draggable is disabled while request is in progress
+- [x] Multiple drag-drop operations are prevented
+- [x] Loading indicator disappears when request completes
+- [x] Loading indicator appears even if optimistic update shows card moved
+- [x] No visual glitches during loading
+- [x] Timeout is handled if request takes too long
 
 ## Implementation Notes
 - Use a loading state in component

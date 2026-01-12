@@ -22,16 +22,16 @@ Test and handle edge cases that can occur in real usage:
 - Component unmount during API call
 
 ## Definition of Done
-- [ ] Rapid consecutive drags are handled (only one at a time)
-- [ ] Network timeout is handled gracefully
-- [ ] Partial failures don't corrupt data
-- [ ] Loading state prevents multiple simultaneous operations
-- [ ] Component properly cleans up on unmount
-- [ ] Browser back button doesn't break component state
-- [ ] Error messages are user-friendly
-- [ ] No race conditions in state updates
-- [ ] No memory leaks during long usage
-- [ ] All edge cases are tested
+- [x] Rapid consecutive drags are handled (only one at a time)
+- [x] Network timeout is handled gracefully
+- [x] Partial failures don't corrupt data
+- [x] Loading state prevents multiple simultaneous operations
+- [x] Component properly cleans up on unmount
+- [x] Browser back button doesn't break component state
+- [x] Error messages are user-friendly
+- [x] No race conditions in state updates
+- [x] No memory leaks during long usage
+- [x] All edge cases are tested
 
 ## Implementation Notes
 - Test with deliberate network delays

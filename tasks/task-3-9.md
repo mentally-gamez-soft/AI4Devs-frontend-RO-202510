@@ -20,12 +20,12 @@ Create tests for score display and formatting:
 - Test score accessibility
 
 ## Definition of Done
-- [ ] Score 4.5 displays as "4.5"
-- [ ] Score 4.0 displays as "4.0"
-- [ ] Score null/undefined displays as "N/A" or "0"
-- [ ] Color coding is applied correctly
-- [ ] Color contrast meets WCAG AA standards
-- [ ] All formatting tests pass
+- [x] Score 4.5 displays as "4.5"
+- [x] Score 4.0 displays as "4.0"
+- [x] Score null/undefined displays as "N/A" or "0"
+- [x] Color coding is applied correctly
+- [x] Color contrast meets WCAG AA standards
+- [x] All formatting tests pass
 
 ## Implementation Notes
 - Test score formatting function

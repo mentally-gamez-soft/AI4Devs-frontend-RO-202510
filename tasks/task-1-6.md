@@ -21,16 +21,16 @@ Ensure the kanban board and all related components have:
 - Professional appearance
 
 ## Definition of Done
-- [ ] Components render correctly on mobile (320px+), tablet, and desktop
-- [ ] Kanban columns stack vertically on small screens
-- [ ] Cards are readable and clickable on all screen sizes
-- [ ] Styling is consistent with existing application design
-- [ ] Color scheme is accessible (WCAG AA compliant)
-- [ ] Font sizes are readable (minimum 14px for body text)
-- [ ] Spacing and padding are consistent
-- [ ] Hover and active states are visually distinct
-- [ ] No horizontal scroll on mobile devices
-- [ ] CSS classes are properly organized
+- [x] Components render correctly on mobile (320px+), tablet, and desktop
+- [x] Kanban columns stack vertically on small screens
+- [x] Cards are readable and clickable on all screen sizes
+- [x] Styling is consistent with existing application design
+- [x] Color scheme is accessible (WCAG AA compliant)
+- [x] Font sizes are readable (minimum 14px for body text)
+- [x] Spacing and padding are consistent
+- [x] Hover and active states are visually distinct
+- [x] No horizontal scroll on mobile devices
+- [x] CSS classes are properly organized
 
 ## Implementation Notes
 - Use Bootstrap responsive utilities (already available)

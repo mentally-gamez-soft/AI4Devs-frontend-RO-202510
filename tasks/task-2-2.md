@@ -24,16 +24,16 @@ Implement the drag and drop functionality in the KanbanBoard component:
 This task focuses on the UI implementation; API calls are in Task 2-3.
 
 ## Definition of Done
-- [ ] DragDropContext wraps the KanbanBoard component
-- [ ] Each stage column is a Droppable zone
-- [ ] Each candidate card is Draggable
-- [ ] Drag visual feedback is shown (opacity, shadow, etc.)
-- [ ] onDragEnd handler is implemented
-- [ ] Handler receives drop result with source and destination
-- [ ] Handler calls onDragEnd callback from parent
-- [ ] Cards can be dragged between columns
-- [ ] Cards can be reordered within the same column
-- [ ] Component doesn't break during drag operations
+- [x] DragDropContext wraps the KanbanBoard component
+- [x] Each stage column is a Droppable zone
+- [x] Each candidate card is Draggable
+- [x] Drag visual feedback is shown (opacity, shadow, etc.)
+- [x] onDragEnd handler is implemented
+- [x] Handler receives drop result with source and destination
+- [x] Handler calls onDragEnd callback from parent
+- [x] Cards can be dragged between columns
+- [x] Cards can be reordered within the same column
+- [x] Component doesn't break during drag operations
 
 ## Implementation Notes
 - Import Draggable, Droppable, and DragDropContext from react-beautiful-dnd
