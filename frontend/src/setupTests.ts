@@ -1,5 +1,8 @@
 import '@testing-library/jest-dom';
 
+// Mock axios before any other imports that use it
+jest.mock('axios');
+
 // Mock window.matchMedia
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
