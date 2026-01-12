@@ -111,7 +111,7 @@
 .empty-state p {
   margin: 0;
   font-size: 14px;
-  color: #ccc;
+  color: #333;
 }
 
 .candidates-list {
