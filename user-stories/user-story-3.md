@@ -1,5 +1,7 @@
 # User Story 3: Candidate Score Display and Filtering
 
+**Status: ✅ COMPLETED (100%)**
+
 ## Title
 As a recruiter, I want to see candidate scores on the kanban board and optionally filter candidates by score range so that I can quickly identify high-potential candidates.
 

@@ -1,5 +1,7 @@
 # User Story 2: Update Candidate Stage via Drag and Drop
 
+**Status: ✅ COMPLETED (100%)**
+
 ## Title
 As a recruiter, I want to update a candidate's interview stage by dragging and dropping their card between columns on the kanban board so that I can quickly advance candidates through the hiring process.
 

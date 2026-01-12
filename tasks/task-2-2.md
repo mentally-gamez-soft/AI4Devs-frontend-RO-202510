@@ -7,10 +7,10 @@
 **High**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Implement the drag and drop functionality in the KanbanBoard component:

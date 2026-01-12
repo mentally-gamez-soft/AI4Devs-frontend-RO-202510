@@ -7,10 +7,10 @@
 **Medium**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Create unit tests for filtering functionality:

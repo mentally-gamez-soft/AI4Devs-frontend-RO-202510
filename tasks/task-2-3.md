@@ -7,10 +7,10 @@
 **High**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Create an API service method in the frontend that updates a candidate's stage:

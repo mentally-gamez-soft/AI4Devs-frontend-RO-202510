@@ -7,10 +7,10 @@
 **Medium**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Verify and enhance backend API to include score information in responses:
@@ -22,12 +22,12 @@ Verify and enhance backend API to include score information in responses:
 Backend service already has this logic; verify it's working correctly.
 
 ## Definition of Done
-- [ ] GET /position/:id/candidates response includes averageScore field
-- [ ] Score is calculated correctly (average of all interview scores)
-- [ ] Score is formatted with one decimal place
-- [ ] Candidates with no interviews show 0 or null
-- [ ] Score calculation is tested in backend
-- [ ] API response matches expected format
+- [x] GET /position/:id/candidates response includes averageScore field
+- [x] Score is calculated correctly (average of all interview scores)
+- [x] Score is formatted with one decimal place
+- [x] Candidates with no interviews show 0 or null
+- [x] Score calculation is tested in backend
+- [x] API response matches expected format
 
 ## Notes
 - Check positionService.ts calculateAverageScore function

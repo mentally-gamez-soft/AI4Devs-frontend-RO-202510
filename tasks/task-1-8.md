@@ -7,10 +7,10 @@
 **High**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Create comprehensive unit tests for all view components (PositionDetails, KanbanBoard, CandidateCard) using Jest and React Testing Library:

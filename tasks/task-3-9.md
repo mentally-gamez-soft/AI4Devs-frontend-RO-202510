@@ -7,10 +7,10 @@
 **Low**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Create tests for score display and formatting:

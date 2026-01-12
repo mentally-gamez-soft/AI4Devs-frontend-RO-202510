@@ -7,10 +7,10 @@
 **Low**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Ensure FilterBar is responsive and works well on all screen sizes:

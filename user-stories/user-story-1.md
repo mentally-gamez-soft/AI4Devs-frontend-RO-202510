@@ -1,5 +1,7 @@
 # User Story 1: View Position Details with Kanban Board
 
+**Status: ✅ COMPLETED (100%)**
+
 ## Title
 As a recruiter, I want to view a job position's details with a kanban board displaying all candidates and their current interview stages so that I can manage the hiring process efficiently.
 

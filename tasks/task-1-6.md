@@ -7,10 +7,10 @@
 **Medium**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Ensure the kanban board and all related components have:

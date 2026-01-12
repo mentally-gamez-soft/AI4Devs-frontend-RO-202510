@@ -7,10 +7,10 @@
 **High**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Set up React Router configuration to add a new route for the position details page. This route should:
@@ -22,13 +22,13 @@ Set up React Router configuration to add a new route for the position details pa
 The route should be accessible from the positions list by clicking a button or card.
 
 ## Definition of Done
-- [ ] React Router is properly configured in App.tsx
-- [ ] /positions/:id route renders the PositionDetails component
-- [ ] Position ID is accessible as a URL parameter
-- [ ] Navigation from the positions list to position details works
-- [ ] Back button returns to positions list
-- [ ] URL updates correctly when navigating
-- [ ] Route is tested and works in both development and production builds
+- [x] React Router is properly configured in App.tsx
+- [x] /positions/:id route renders the PositionDetails component
+- [x] Position ID is accessible as a URL parameter
+- [x] Navigation from the positions list to position details works
+- [x] Back button returns to positions list
+- [x] URL updates correctly when navigating
+- [x] Route is tested and works in both development and production builds
 
 ## Notes
 - Use React Router v6 (already in dependencies)

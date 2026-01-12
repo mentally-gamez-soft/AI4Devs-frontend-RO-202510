@@ -7,10 +7,10 @@
 **Medium**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Add visual feedback to show that an API call is in progress:

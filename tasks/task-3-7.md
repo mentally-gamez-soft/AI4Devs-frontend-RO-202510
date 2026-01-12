@@ -7,10 +7,10 @@
 **Low**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Implement the clear filters button functionality:

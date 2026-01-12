@@ -7,10 +7,10 @@
 **High**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Install the react-beautiful-dnd library and set up the necessary configuration:
@@ -20,13 +20,13 @@ Install the react-beautiful-dnd library and set up the necessary configuration:
 - Update build configuration if necessary
 
 ## Definition of Done
-- [ ] react-beautiful-dnd is installed in package.json
-- [ ] @types/react-beautiful-dnd is installed for TypeScript
-- [ ] Library is successfully imported in components
-- [ ] No build or runtime errors related to the library
-- [ ] Initial setup documentation is reviewed
-- [ ] Team is aware of library limitations (if any)
-- [ ] Package lock files are updated
+- [x] react-beautiful-dnd is installed in package.json
+- [x] @types/react-beautiful-dnd is installed for TypeScript
+- [x] Library is successfully imported in components
+- [x] No build or runtime errors related to the library
+- [x] Initial setup documentation is reviewed
+- [x] Team is aware of library limitations (if any)
+- [x] Package lock files are updated
 
 ## Notes
 - Note: react-beautiful-dnd is in maintenance mode, consider react-dnd or react-spring as alternatives

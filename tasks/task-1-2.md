@@ -7,10 +7,10 @@
 **High**
 
 ## Status
-Not Started
+Completed
 
 ## Percentage Completed
-0%
+100%
 
 ## Description
 Create API service methods in the frontend that will:
@@ -22,13 +22,13 @@ Create API service methods in the frontend that will:
 The methods should be added to the candidateService or a new positionService in src/services/.
 
 ## Definition of Done
-- [ ] getPositionInterviewFlow(id: number) method created and returns position name + interview steps
-- [ ] getCandidatesByPosition(id: number) method created and returns candidate list
-- [ ] Both methods are properly typed with TypeScript interfaces
-- [ ] Error handling is implemented for failed requests
-- [ ] Methods work with the existing axios configuration
-- [ ] Service methods are exported for use in components
-- [ ] Methods handle edge cases (empty responses, network errors)
+- [x] getPositionInterviewFlow(id: number) method created and returns position name + interview steps
+- [x] getCandidatesByPosition(id: number) method created and returns candidate list
+- [x] Both methods are properly typed with TypeScript interfaces
+- [x] Error handling is implemented for failed requests
+- [x] Methods work with the existing axios configuration
+- [x] Service methods are exported for use in components
+- [x] Methods handle edge cases (empty responses, network errors)
 
 ## Notes
 - Use axios for HTTP requests (already in dependencies)
